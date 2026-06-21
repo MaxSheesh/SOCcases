@@ -1,1 +1,54 @@
+[2026-06-18 10:32:30]
+Event ID: 1
+Process Create
 
+Image:
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+Parent Image:
+C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE
+
+Command Line:
+powershell.exe -ExecutionPolicy Bypass -WindowStyle Hidden -EncodedCommand ...
+
+--------------------------------------------------
+
+[2026-06-18 10:32:51]
+Event ID: 3
+Network Connection
+
+Image:
+powershell.exe
+
+Destination IP:
+185.143.223.45
+
+Destination Port:
+80
+
+Destination Host:
+update-sharepoint-storage.com
+
+--------------------------------------------------
+
+[2026-06-18 10:32:56]
+Event ID: 11
+File Create
+
+Image:
+powershell.exe
+
+Target Filename:
+C:\Users\Public\AdobeUpdater.exe
+
+--------------------------------------------------
+
+[2026-06-18 10:33:15]
+Event ID: 13
+Registry Value Set
+
+Target Object:
+HKCU\Software\Microsoft\Windows\CurrentVersion\Run\AdobeUpdater
+
+Details:
+C:\Users\Public\AdobeUpdater.exe
