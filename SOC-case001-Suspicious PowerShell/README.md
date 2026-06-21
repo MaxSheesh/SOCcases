@@ -4,9 +4,6 @@
 ## Incident Type
 Phishing / Malware Infection
 
-## Summary
-A phishing email delivered a malicious .docm file that resulted in PowerShell execution and suspected malware download.
-
 ## Impact
 - One workstation affected
 - Suspicious process execution observed
