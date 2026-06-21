@@ -9,3 +9,6 @@ A user received a phishing email containing a malicious .docm file. After openin
 - Step 4: The downloaded file was executed and established persistence on the system
 
 ## Why is it malicious?
+- .docm files doesn't start shell
+- suspicious file got downloaded without system log
+- established connection with weird ip's and domains (check proxy.log)
