@@ -1,1 +1,36 @@
+[2026-06-18 10:32:30]
+Event ID: 4688
+New Process Created
 
+Creator Process:
+WINWORD.EXE
+
+New Process:
+powershell.exe
+
+User:
+emma.williams
+
+--------------------------------------------------
+
+[2026-06-18 10:32:56]
+Event ID: 4688
+New Process Created
+
+Creator Process:
+powershell.exe
+
+New Process:
+AdobeUpdater.exe
+
+--------------------------------------------------
+
+[2026-06-18 10:33:15]
+Event ID: 4657
+Registry Value Modified
+
+Key:
+HKCU\Software\Microsoft\Windows\CurrentVersion\Run
+
+Value:
+AdobeUpdater
