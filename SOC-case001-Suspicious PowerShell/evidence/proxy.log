@@ -1,1 +1,7 @@
-
+2026-06-18 10:32:10  10.0.0.5  emma.williams  CONNECT  http://update-sharepoint-storage.com  ALLOWED
+2026-06-18 10:32:12  10.0.0.5  emma.williams  GET      http://update-sharepoint-storage.com/AdobeUpdater.exe  ALLOWED
+2026-06-18 10:32:14  10.0.0.5  emma.williams  CONNECT  http://185.143.223.45  ALLOWED
+2026-06-18 10:32:18  10.0.0.5  emma.williams  GET      http://185.143.223.45/payload.bin  ALLOWED
+2026-06-18 10:32:25  10.0.0.5  emma.williams  CONNECT  https://google.com  ALLOWED
+2026-06-18 10:33:05  10.0.0.5  emma.williams  CONNECT  http://cdn.office-update.net  BLOCKED
+2026-06-18 10:33:20  10.0.0.5  emma.williams  GET      http://malicious-update-storage.com/config.json  BLOCKED
