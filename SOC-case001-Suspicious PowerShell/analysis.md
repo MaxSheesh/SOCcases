@@ -9,6 +9,7 @@ A user received a phishing email containing a malicious .docm file. After openin
 - Step 4: The downloaded file was executed and established persistence on the system
 
 ## Why is it malicious?
-- .docm files doesn't start shell
-- suspicious file got downloaded without system log
-- established connection with weird ip's and domains (check proxy.log)
+
+- .docm files can contain macros, which are capable of executing system commands such as PowerShell
+- A suspicious file was downloaded and executed from an external source
+- The system attempted connections to external IP addresses and domains, some of which were blocked (see proxy logs)
