@@ -1,4 +1,4 @@
-# Case-002: Suspicious PowerShell-Based Lateral Movement Detected via SMB Authentication Attempts
+# Case-001: Suspicious PowerShell-Based Lateral Movement Detected via SMB Authentication Attempts
 
 ## 🧾 Summary
 A suspicious PowerShell process was detected executing network discovery and authentication attempts across multiple internal hosts via SMB. The activity originated from a previously compromised workstation and indicated potential lateral movement within the internal network.
