@@ -1,4 +1,3 @@
-# Case-001: Suspicious PowerShell-Based Lateral Movement Detected via SMB Authentication Attempts
 
 # Case-001: Phishing Leading to Malware Execution
 
