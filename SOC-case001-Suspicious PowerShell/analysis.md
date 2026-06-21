@@ -1,3 +1,4 @@
 ### Incident analysis
 ## Overview
-We can see user received phishing email, .docm file, which contained malicious macro inside, after user launched it opened powershell, executed encoded pwoershell command and after downloaded from unknown domain a weird file called adobeupdater
+A user received a phishing email containing a malicious .docm file. After opening it and enabling macros, PowerShell was executed, which downloaded and ran a suspicious payload, leading to external network connections.
+## Attack chain
