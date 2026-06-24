@@ -1,1 +1,15 @@
+EventID: 4624 Logon Success
+User: j.smith
+Logon Type: 10
+Workstation: J-SMITH-PC
+Source IP: 10.0.0.15
 
+EventID: 4688 Process Creation
+New Process: powershell.exe
+Parent Process: wscript.exe
+User: j.smith
+
+EventID: 5156 Network Connection Allowed
+Process: powershell.exe
+Destination IP: 91.219.236.44
+Protocol: TCP
