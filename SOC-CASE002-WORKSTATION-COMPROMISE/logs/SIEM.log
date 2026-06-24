@@ -1,1 +1,5 @@
-
+2026-06-24T03:41:12Z INFO User login detected: j.smith from 10.0.0.15
+2026-06-24T03:42:05Z ALERT Unusual script execution chain detected on endpoint J-SMITH-PC
+2026-06-24T03:42:10Z ALERT PowerShell spawned from abnormal parent process (wscript.exe)
+2026-06-24T03:43:02Z ALERT Outbound connection to suspicious IP 91.219.236.44
+2026-06-24T03:44:10Z ALERT Similar behavior detected on additional endpoint HR-PC-02
