@@ -10,3 +10,8 @@
 9. 03:43:10 – ALERT: Repeated outbound beaconing pattern detected
 10. 03:43:12 – BLOCK enforced after EDR containment signal
 11. 03:43:20 – DNS query: telemetry-check[.]org
+12. 03:44:10 - ALERT Similar behavior detected on additional endpoint HR-PC-02
+### INITIAL ACCESS VECTOR
+10.0.0.15 started the attack
+### EXECUTION CHAIN
+Connection to j.smith from 10.0.0.15 > obsufucated powershell command > created wscript.exe > dns query cdn-update.net > connection to suspicious IP 91.219.236.44 > endpoint isolated > repeated outbound beaconing > blocked > dns query telemetry-check.org > alrt similar behavior detected on additional endpoint
