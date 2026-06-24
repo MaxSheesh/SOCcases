@@ -1,1 +1,5 @@
-
+2026-06-24T03:42:08Z BEHAVIOR ALERT: Script-based execution chain detected (HIGH)
+2026-06-24T03:42:09Z DETECTION: Obfuscated PowerShell command
+2026-06-24T03:43:05Z DETECTION: Beaconing behavior to external IP
+2026-06-24T03:43:06Z RESPONSE: powershell.exe terminated
+2026-06-24T03:43:07Z RESPONSE: Endpoint isolated (J-SMITH-PC)
