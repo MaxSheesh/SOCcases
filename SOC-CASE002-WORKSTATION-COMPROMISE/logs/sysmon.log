@@ -1,1 +1,19 @@
+EventID: 1 Process Create
+Image: C:\Windows\System32\wscript.exe
+CommandLine: wscript.exe //B //Nologo script.js
+User: j.smith
+PID: 4412
 
+EventID: 1 Process Create
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+CommandLine: powershell -nop -w hidden -enc <BASE64_PAYLOAD>
+ParentImage: wscript.exe
+PID: 5120
+
+EventID: 3 Network Connection
+Image: powershell.exe
+Destination: 91.219.236.44:443
+PID: 5120
+
+EventID: 11 File Create
+TargetFilename: C:\Users\j.smith\AppData\Roaming\update.dat
