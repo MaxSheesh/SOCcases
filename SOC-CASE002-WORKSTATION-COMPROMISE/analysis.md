@@ -14,16 +14,16 @@
 ### INITIAL ACCESS VECTOR
 10.0.0.15 started the attack
 ### EXECUTION CHAIN
-Connection to j.smith from 10.0.0.15 > obsufucated powershell command > created wscript.exe > dns query cdn-update.net > connection to suspicious IP 91.219.236.44 > endpoint isolated > repeated outbound beaconing > blocked > dns query telemetry-check.org > File Create
+Connection to j.smith from 10.0.0.15 > obsufucated powershell command > spawned wscript.exe > dns query cdn-update.net > connection to suspicious IP 91.219.236.44 > endpoint isolated > repeated outbound beaconing > blocked > dns query telemetry-check.org > File Create
 TargetFilename: C:\Users\j.smith\AppData\Roaming\update.dat > alert similar behavior detected on additional endpoint
 ### Indicators of Compromise (IOCs) 
-- New login detected from 10.0.0.15
 - Obsufucated powershell command
 - suspicious payload wscript.exe
 - Connection to 91.219.236.44 (cdn-update.net)
 - failed connection telemetry-check.org (host isolated)
 - SIEM alert similar behavior on additional endpoint
+- File update.bat
 ### Detection logic
 Log of obsufucated powershell command detection, spawning abnormal process wscript.exe, connection to external ip helped me to detect it
 ### Conclusion
-So overall we dealt with a hacker that executed malicious code through powershell and persistened in system, tried to connect to exeternal ip, but host got isolated by edr and connection was failed and probably hacker also tried to lateral movement through the system, because SIEM detected simillar behaviour on another host
+So overall we dealt with a hacker that executed malicious code through powershell and persistened in system, tried to connect to exeternal ip, but host got isolated by edr and connection was failed.Also SIEM detected same malicious activity on simillar host so the another machine can be infected
