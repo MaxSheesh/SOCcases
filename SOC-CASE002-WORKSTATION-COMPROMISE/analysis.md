@@ -23,6 +23,13 @@ TargetFilename: C:\Users\j.smith\AppData\Roaming\update.dat > alert similar beha
 - failed connection telemetry-check.org (host isolated)
 - SIEM alert similar behavior on additional endpoint
 - File update.bat
+### MITRE Mapping
+
+- T1204 – User Execution  
+- T1059 – Command and Scripting Interpreter  
+- T1027 – Obfuscated Files  
+- T1071 – Command and Control  
+- T1021 – Possible Lateral Movement
 ### Detection logic
 Log of obsufucated powershell command detection, spawning abnormal process wscript.exe, connection to external ip helped me to detect it
 ### Conclusion
