@@ -1,1 +1,11 @@
+Event: Token Issued
+User: a.ivanov
+App: Microsoft Outlook
+Auth Method: MFA satisfied (device remembered)
+Token Type: OAuth Refresh Token
 
+Event: Token Usage
+User: a.ivanov
+IP: 185.192.34.77 (Unknown ASN)
+Device: Windows 10 Chrome Session
+Conditional Access: PASSED (trusted app)
