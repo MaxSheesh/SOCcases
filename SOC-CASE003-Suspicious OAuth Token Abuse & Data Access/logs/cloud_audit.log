@@ -1,1 +1,14 @@
+14:18:15 SharePoint File Access Spike
+User: a.ivanov
+IP: 185.192.34.77
+Action: Download
+File Types: .pdf, .xlsx, .docx
 
+14:18:40 Mailbox Access Pattern Change
+User: a.ivanov
+Action: Full folder enumeration
+Risk Flag: Unusual Access Pattern
+
+14:19:10 Consent Granted
+App: "Unknown Sync App"
+Permissions: Mail.Read, Files.Read.All
