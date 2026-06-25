@@ -1,1 +1,10 @@
+Timestamp: 14:17:50
+Host: UNKNOWN (no corporate device match)
+Event: Browser session detected
+Process: chrome.exe
+Profile: "Work Account - a.ivanov"
 
+Behavior:
+- Cookie/token export detected
+- Session reused outside managed device
+- No local malware detected
