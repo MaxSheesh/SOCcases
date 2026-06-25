@@ -1,1 +1,16 @@
+[14:18:02] ALERT: Impossible Travel Detected
+User: a.ivanov
+Location 1: Kyiv, UA (10:05 UTC)
+Location 2: Frankfurt, DE (14:17 UTC)
+Risk Score: High
 
+[14:18:20] ALERT: Excessive SharePoint File Access
+User: a.ivanov
+Files Accessed: 1,240 in 3 minutes
+Service: SharePoint Online
+Action: Download + View
+
+[14:19:01] ALERT: Suspicious Mailbox Enumeration
+User: a.ivanov
+Activity: Full mailbox folder traversal
+Volume: 18,000 items scanned
