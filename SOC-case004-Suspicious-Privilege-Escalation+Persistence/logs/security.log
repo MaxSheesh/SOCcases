@@ -1,1 +1,3 @@
-
+2026-06-26T09:12:03Z EventID=4672 user=jane.smith privileges=SeDebugPrivilege,SeImpersonatePrivilege
+2026-06-26T09:12:10Z EventID=4728 user=jane.smith group=Local Administrators action=added_member target=user=svc_backup
+2026-06-26T09:12:45Z EventID=4732 user=jane.smith group=Domain Admins action=added_member target=user=svc_backup
