@@ -1,1 +1,2 @@
-
+2026-06-26T09:10:11Z LOGIN_SUCCESS user=jane.smith ip=10.0.2.15 location=internal device=workstation-07
+2026-06-26T09:10:14Z LOGIN_SUCCESS user=jane.smith ip=10.0.2.15 session=interactive
