@@ -1,1 +1,2 @@
-
+2026-06-26T09:15:01Z logs_cleared user=jane.smith target=security_event_logs
+2026-06-26T09:15:10Z audit_policy_modified user=jane.smith setting=disabled_success_audit
