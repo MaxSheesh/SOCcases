@@ -1,1 +1,2 @@
-
+2026-06-26T09:14:10Z scheduled_task_created user=jane.smith task_name="WindowsUpdateCheck"
+2026-06-26T09:14:12Z task_action=execute program="powershell.exe -WindowStyle Hidden -File C:\ProgramData\update.ps1"
