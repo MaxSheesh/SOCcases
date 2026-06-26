@@ -1,1 +1,4 @@
-
+2026-06-26T09:13:20Z process_start user=jane.smith process=cmd.exe
+2026-06-26T09:13:22Z process_start user=jane.smith process=powershell.exe
+2026-06-26T09:13:25Z command_line user=jane.smith cmd="net user backdoor P@ssw0rd123 /add"
+2026-06-26T09:13:30Z command_line user=jane.smith cmd="net localgroup administrators backdoor /add"
